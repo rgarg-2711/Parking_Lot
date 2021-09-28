@@ -65,6 +65,7 @@ class Create
     if (!slotinfo[posn])
     {
       cout << "Slot already vacant" << endl;
+      slotinfo.erase(posn);
       return;
     }
 
